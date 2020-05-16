@@ -43,6 +43,7 @@
             app:cardElevation="8dp"
             app:cardCornerRadius="8dp"
             app:cardBackgroundColor="@android:color/holo_blue_dark"
+            android:onClick="Call"
             >
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
@@ -78,6 +79,7 @@
             app:cardElevation="8dp"
             app:cardCornerRadius="8dp"
             app:cardBackgroundColor="@android:color/holo_blue_dark"
+            android:onClick="Message"
             >
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
@@ -113,6 +115,7 @@
             app:cardElevation="8dp"
             app:cardCornerRadius="8dp"
             app:cardBackgroundColor="@android:color/holo_blue_dark"
+            android:onClick="Internet"
             >
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
@@ -148,6 +151,7 @@
             app:cardElevation="8dp"
             app:cardCornerRadius="8dp"
             app:cardBackgroundColor="@android:color/holo_blue_dark"
+            android:onClick="Song"
             >
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
