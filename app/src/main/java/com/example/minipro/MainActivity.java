@@ -1,13 +1,16 @@
 package com.example.minipro;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
-
+    @RequiresApi(api = Build.VERSION_CODES.P)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,5 +35,10 @@ public class MainActivity extends AppCompatActivity {
     {
         Intent c = new Intent(this,WebActivity.class);
         startActivity(c);
+    }
+    public void About(View v)
+    {
+        Intent a = new Intent(this,About.class);
+        startActivity(a);
     }
 }
